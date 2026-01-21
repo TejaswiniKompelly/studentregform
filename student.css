@@ -1,0 +1,30 @@
+h1{
+    color: darkgreen;
+    text-align: center;
+}
+
+h2{
+    color: darkblue;
+    text-align: center;
+}
+
+table{
+    background-color: lightcyan;
+}
+
+td{
+    color: brown;
+    font-size: 22px;
+}
+
+input, textarea{
+    color: navy;
+    font-size: 18px;
+    text-align: center;
+}
+
+select{
+    color: navy;
+    font-size: 18px;
+}
+
