@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <h2>Login</h2>
+    
+    <!-- The 'action' attribute specifies the server-side script that will process the form data. -->
+    <!-- The 'method' attribute 'POST' is used to send data securely. -->
+    <form action="/login_handler.php" method="POST">
+        <div>
+            <label for="username">Username:</label>
+            <!-- Input for username/email; 'type="text"' or 'type="email"' can be used. -->
+            <input type="text" id="username" name="username" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password:</label>
+            <!-- Input for password; 'type="password"' masks the characters. -->
+            <input type="password" id="password" name="password" required>
+        </div>
+        <br>
+        <!-- The submit button sends the form data to the specified action URL. -->
+        <button type="submit">Login</button>
+    </form>
+
+</body>
+</html>
+
